@@ -1,14 +1,9 @@
 ﻿# segredos - NUNCA versionar
 .env
 
-# base de dados e dados locais (regeneraveis)
-data/
-*.db
+# dados locais voláteis (a BD principal e versionada; estes nao)
 *.db-wal
 *.db-shm
-
-# site gerado (o GitHub Actions gera)
-site/
 
 # arquivo da fase B
 _arquivo_fase_b/
